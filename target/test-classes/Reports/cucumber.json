@@ -1,0 +1,390 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-24T18:57:01.694Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1595700,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 11,
+        "name": "Verifying Jira Post issue",
+        "description": "",
+        "id": "api-testing-cucumber-framework-end2end;verifying-jira-post-issue;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 18500,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 834900,
+              "status": "skipped"
+            },
+            "line": 5,
+            "name": "Add the jira create Api Payload \"User textbox not working\" and \"User textbox not working in the login page\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User textbox not working\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"User textbox not working in the login page\"",
+                  "offset": 63
+                }
+              ],
+              "location": "StepDefnition.add_the_jira_create_Api_Payload_and(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31600,
+              "status": "skipped"
+            },
+            "line": 6,
+            "name": "User should call the \"createIssueApi\" with \"Post\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"createIssueApi\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Post\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefnition.user_should_call_the_with_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 29700,
+              "status": "skipped"
+            },
+            "line": 7,
+            "name": "User should verify whether the response code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefnition.user_should_verify_whether_the_response_code_is(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@createIssue"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T18:57:01.803Z",
+        "before": [
+          {
+            "result": {
+              "duration": 44900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 21,
+        "name": "Verifying Jira Put issue",
+        "description": "",
+        "id": "api-testing-cucumber-framework-end2end;verifying-jira-put-issue;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 21400,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 63300,
+              "status": "skipped"
+            },
+            "line": 15,
+            "name": "Add the jira update Api Payload \"User textbox not working1\",\"User textbox not working in the login page1\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"User textbox not working1\"",
+                  "offset": 32
+                },
+                {
+                  "val": "\"User textbox not working in the login page1\"",
+                  "offset": 60
+                }
+              ],
+              "location": "StepDefnition.add_the_jira_update_Api_Payload(String,String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 31500,
+              "status": "skipped"
+            },
+            "line": 16,
+            "name": "User should call the \"updateIssueApi\" with \"Put\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"updateIssueApi\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Put\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefnition.user_should_call_the_with_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 23600,
+              "status": "skipped"
+            },
+            "line": 17,
+            "name": "User should verify whether the response code is 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefnition.user_should_verify_whether_the_response_code_is(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@UpdateIssue"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T18:57:01.813Z",
+        "before": [
+          {
+            "result": {
+              "duration": 44800,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "Verifying Jira Get issue",
+        "description": "",
+        "id": "api-testing-cucumber-framework-end2end;verifying-jira-get-issue",
+        "after": [
+          {
+            "result": {
+              "duration": 32900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 40300,
+              "status": "skipped"
+            },
+            "line": 25,
+            "name": "Add the jira baseUri",
+            "match": {
+              "location": "StepDefnition.add_the_jira_baseUri()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 39100,
+              "status": "skipped"
+            },
+            "line": 26,
+            "name": "User should call the \"getAllIssueApi\" with \"Get\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"getAllIssueApi\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Get\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefnition.user_should_call_the_with_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 44700,
+              "status": "skipped"
+            },
+            "line": 27,
+            "name": "User should verify whether the response code is 201",
+            "match": {
+              "arguments": [
+                {
+                  "val": "201",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefnition.user_should_verify_whether_the_response_code_is(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@getAllIssue"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2020-08-24T18:57:01.906Z",
+        "before": [
+          {
+            "result": {
+              "duration": 51900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.beforeScenario()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "Verifying Jira Delete issue",
+        "description": "",
+        "id": "api-testing-cucumber-framework-end2end;verifying-jira-delete-issue",
+        "after": [
+          {
+            "result": {
+              "duration": 37900,
+              "status": "skipped"
+            },
+            "match": {
+              "location": "Hooks.afterScenario(Scenario)"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "status": "undefined"
+            },
+            "line": 31,
+            "name": "Add the jira delete Api Payload",
+            "match": {},
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 58200,
+              "status": "skipped"
+            },
+            "line": 32,
+            "name": "User should call the \"deleteIssueApi\" with \"Delete\" request",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"deleteIssueApi\"",
+                  "offset": 21
+                },
+                {
+                  "val": "\"Delete\"",
+                  "offset": 43
+                }
+              ],
+              "location": "StepDefnition.user_should_call_the_with_request(String,String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 36800,
+              "status": "skipped"
+            },
+            "line": 33,
+            "name": "User should verify whether the response code is 204",
+            "match": {
+              "arguments": [
+                {
+                  "val": "204",
+                  "offset": 48
+                }
+              ],
+              "location": "StepDefnition.user_should_verify_whether_the_response_code_is(int)"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@DeleteIssue"
+          }
+        ]
+      }
+    ],
+    "name": "API Testing Cucumber Framework End2End",
+    "description": "",
+    "id": "api-testing-cucumber-framework-end2end",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/features/Cucumber.feature",
+    "tags": []
+  }
+]
